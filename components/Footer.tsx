@@ -13,7 +13,8 @@ import {
   FaTwitter, 
   FaInstagram, 
   FaLinkedinIn,
-  FaYoutube
+  FaYoutube,
+  FaWhatsapp
 } from 'react-icons/fa'
 
 const quickLinks = [
@@ -26,6 +27,7 @@ const quickLinks = [
 
 const socialLinks = [
   { name: 'Facebook', icon: FaFacebookF, href: 'https://www.facebook.com/AirSchoolG14/', color: 'hover:bg-blue-600' },
+  { name: 'WhatsApp', icon: FaWhatsapp, href: 'https://wa.me/923390001281', color: 'hover:bg-green-600' },
 ]
 
 export default function Footer() {
@@ -77,6 +79,7 @@ export default function Footer() {
                 >
                   <social.icon className="w-4 h-4" />
                 </a>
+                
               ))}
             </div>
           </motion.div>

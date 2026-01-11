@@ -98,6 +98,39 @@ export default function HomePage() {
         </div>
       </section>
 
+    {/* CTA Section */}
+      <section className="py-20 bg-gradient-to-r from-primary-500 to-primary-600">
+        <div className="container-custom text-center">
+          <FadeIn>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              Admissions Open for {currentYear}-{nextYear}
+            </h2>
+            <p className="text-white/90 text-lg max-w-2xl mx-auto mb-8">
+              Join Air Foundation School - Capital Campus and give your child 
+              the best start in their educational journey.
+            </p>
+            <div className="flex flex-wrap justify-center gap-4">
+              <Link
+                href="/contact"
+                className="inline-flex items-center px-8 py-4 bg-white text-primary-500 font-semibold rounded-lg 
+                          hover:bg-gray-100 transition-all duration-300 transform hover:scale-105"
+              >
+                Apply Now
+                <HiArrowRight className="ml-2 w-5 h-5" />
+              </Link>
+              <Link
+                href="/contact"
+                className="inline-flex items-center px-8 py-4 border-2 border-white text-white font-semibold rounded-lg 
+                          hover:bg-white hover:text-primary-500 transition-all duration-300"
+              >
+                <HiCalendar className="mr-2 w-5 h-5" />
+                Schedule a Visit
+              </Link>
+            </div>
+          </FadeIn>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section className="py-20 bg-gray-50">
         <div className="container-custom">
@@ -224,38 +257,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-primary-500 to-primary-600">
-        <div className="container-custom text-center">
-          <FadeIn>
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Admissions Open for {currentYear}-{nextYear}
-            </h2>
-            <p className="text-white/90 text-lg max-w-2xl mx-auto mb-8">
-              Join Air Foundation School - Capital Campus and give your child 
-              the best start in their educational journey.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <Link
-                href="/contact"
-                className="inline-flex items-center px-8 py-4 bg-white text-primary-500 font-semibold rounded-lg 
-                          hover:bg-gray-100 transition-all duration-300 transform hover:scale-105"
-              >
-                Apply Now
-                <HiArrowRight className="ml-2 w-5 h-5" />
-              </Link>
-              <Link
-                href="/contact"
-                className="inline-flex items-center px-8 py-4 border-2 border-white text-white font-semibold rounded-lg 
-                          hover:bg-white hover:text-primary-500 transition-all duration-300"
-              >
-                <HiCalendar className="mr-2 w-5 h-5" />
-                Schedule a Visit
-              </Link>
-            </div>
-          </FadeIn>
-        </div>
-      </section>
+      
     </>
   )
 }
