@@ -1,0 +1,104 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "Admissions Open for Session 2026-2027",
+      "slug": "admissions-open-2026",
+      "excerpt": "Air Foundation School Capital Campus is now accepting admissions for Pre School, Junior School, and High School for the upcoming academic session 2026-2027.",
+      "content": "We are pleased to announce that admissions are now open for the academic session 2026-2027. Parents interested in enrolling their children can visit our campus for registration. Early bird discounts available for applications submitted before March 2026.",
+      "date": "2026-01-10",
+      "category": "Admissions",
+      "image": "/images/news/admissions.svg",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Annual Sports Day 2025 Celebration",
+      "slug": "annual-sports-day-2025",
+      "excerpt": "A spectacular display of sportsmanship and athletic excellence at our Annual Sports Day held at the school grounds.",
+      "content": "The Annual Sports Day 2025 was a grand success with students participating in various track and field events, team sports, and fun activities. Chief Guest appreciated the athletic spirit of our students.",
+      "date": "2025-12-15",
+      "category": "Sports",
+      "image": "/images/news/sports-day.svg",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Science Exhibition Winners Announced",
+      "slug": "science-exhibition-2025",
+      "excerpt": "Students showcase innovative projects at the Annual Science Exhibition, demonstrating creativity and scientific thinking.",
+      "content": "Our young scientists presented remarkable projects ranging from renewable energy solutions to environmental conservation models. The exhibition attracted parents and guests who were impressed by the students' innovative ideas.",
+      "date": "2025-11-20",
+      "category": "Academic",
+      "image": "/images/news/science-exhibition.svg",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "Parent-Teacher Meeting Schedule",
+      "slug": "ptm-schedule-january-2026",
+      "excerpt": "Monthly Parent-Teacher Meeting scheduled for January 2026 to discuss student progress and academic performance.",
+      "content": "Parents are cordially invited to attend the monthly PTM on January 25, 2026. This is an opportunity to discuss your child's academic progress, areas of improvement, and future goals with our dedicated faculty.",
+      "date": "2026-01-08",
+      "category": "Notice",
+      "image": "/images/news/ptm.svg",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "Winter Vacation Announcement",
+      "slug": "winter-vacation-2025",
+      "excerpt": "School will remain closed for winter vacation from December 23, 2025 to January 5, 2026.",
+      "content": "Due to severe cold weather conditions, the school management has announced winter vacation. Classes will resume on January 6, 2026. Students are advised to complete their holiday homework during this period.",
+      "date": "2025-12-20",
+      "category": "Notice",
+      "image": "/images/news/winter.svg",
+      "featured": false
+    },
+    {
+      "id": 6,
+      "title": "Educational Trip to Faisal Mosque",
+      "slug": "educational-trip-faisal-mosque",
+      "excerpt": "Students enjoyed an educational trip to the iconic Faisal Mosque, learning about Islamic architecture and heritage.",
+      "content": "Our students from Grade 5-8 visited the magnificent Faisal Mosque in Islamabad. The trip aimed to educate students about Islamic architecture, heritage, and the importance of our national monuments.",
+      "date": "2025-11-10",
+      "category": "Trip",
+      "image": "/images/news/faisal-mosque.svg",
+      "featured": false
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Annual Day Celebration",
+      "date": "2026-02-15",
+      "day": "Sat",
+      "month": "Feb",
+      "description": "Grand annual day celebration with performances and awards ceremony."
+    },
+    {
+      "id": 2,
+      "title": "Inter-House Competition",
+      "date": "2026-01-25",
+      "day": "Sat",
+      "month": "Jan",
+      "description": "Inter-house academic and sports competitions."
+    },
+    {
+      "id": 3,
+      "title": "Art & Craft Exhibition",
+      "date": "2026-02-28",
+      "day": "Sat",
+      "month": "Feb",
+      "description": "Display of students' artistic talents and creative works."
+    },
+    {
+      "id": 4,
+      "title": "Kashmir Day",
+      "date": "2026-02-05",
+      "day": "Thu",
+      "month": "Feb",
+      "description": "Special assembly and activities to observe Kashmir Solidarity Day."
+    }
+  ]
+}

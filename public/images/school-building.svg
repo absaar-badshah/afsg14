@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="450" viewBox="0 0 600 450">
+  <rect width="600" height="450" fill="#e8f4f8"/>
+  <rect x="50" y="50" width="500" height="250" fill="#0a2647" rx="10"/>
+  <rect x="100" y="320" width="150" height="100" fill="#00a9cc" rx="5"/>
+  <rect x="280" y="320" width="150" height="100" fill="#00a9cc" rx="5"/>
+  <text x="300" y="180" font-family="Arial" font-size="24" fill="white" text-anchor="middle">School Building</text>
+</svg>

@@ -1,0 +1,190 @@
+{
+  "categories": [
+    {
+      "id": "sports-day",
+      "title": "Annual Sports Day 2025",
+      "description": "Capturing the spirit of sportsmanship and athletic excellence",
+      "coverImage": "/images/gallery/sports-day/cover.svg",
+      "images": [
+        {
+          "id": 1,
+          "src": "/images/gallery/sports-day/cover.svg",
+          "alt": "Students participating in 100m race",
+          "caption": "100m Sprint Finals"
+        },
+        {
+          "id": 2,
+          "src": "/images/gallery/sports-day/cover.svg",
+          "alt": "Relay race team handoff",
+          "caption": "Relay Race"
+        },
+        {
+          "id": 3,
+          "src": "/images/gallery/sports-day/cover.svg",
+          "alt": "Long jump competition",
+          "caption": "Long Jump Event"
+        },
+        {
+          "id": 4,
+          "src": "/images/gallery/sports-day/cover.svg",
+          "alt": "Prize distribution ceremony",
+          "caption": "Prize Distribution"
+        }
+      ]
+    },
+    {
+      "id": "science-exhibition",
+      "title": "Science Exhibition 2025",
+      "description": "Showcasing innovation and scientific creativity",
+      "coverImage": "/images/gallery/science-exhibition/cover.svg",
+      "images": [
+        {
+          "id": 1,
+          "src": "/images/gallery/science-exhibition/cover.svg",
+          "alt": "Solar system model by students",
+          "caption": "Solar System Model"
+        },
+        {
+          "id": 2,
+          "src": "/images/gallery/science-exhibition/cover.svg",
+          "alt": "Renewable energy project",
+          "caption": "Renewable Energy Project"
+        },
+        {
+          "id": 3,
+          "src": "/images/gallery/science-exhibition/cover.svg",
+          "alt": "Volcano demonstration",
+          "caption": "Volcano Demonstration"
+        },
+        {
+          "id": 4,
+          "src": "/images/gallery/science-exhibition/cover.svg",
+          "alt": "Robotics display",
+          "caption": "Robotics Projects"
+        }
+      ]
+    },
+    {
+      "id": "school-trips",
+      "title": "Educational Trips",
+      "description": "Learning beyond the classroom through educational visits",
+      "coverImage": "/images/gallery/school-trips/cover.svg",
+      "images": [
+        {
+          "id": 1,
+          "src": "/images/gallery/school-trips/cover.svg",
+          "alt": "Visit to Faisal Mosque",
+          "caption": "Faisal Mosque Visit"
+        },
+        {
+          "id": 2,
+          "src": "/images/gallery/school-trips/cover.svg",
+          "alt": "Pakistan Monument visit",
+          "caption": "Pakistan Monument"
+        },
+        {
+          "id": 3,
+          "src": "/images/gallery/school-trips/cover.svg",
+          "alt": "Lok Virsa Museum tour",
+          "caption": "Lok Virsa Museum"
+        },
+        {
+          "id": 4,
+          "src": "/images/gallery/school-trips/cover.svg",
+          "alt": "Daman-e-Koh picnic",
+          "caption": "Daman-e-Koh Picnic"
+        }
+      ]
+    },
+    {
+      "id": "annual-day",
+      "title": "Annual Day Celebration",
+      "description": "Celebrating achievements with performances and awards",
+      "coverImage": "/images/gallery/annual-day/cover.svg",
+      "images": [
+        {
+          "id": 1,
+          "src": "/images/gallery/annual-day/cover.svg",
+          "alt": "Stage performance by students",
+          "caption": "Cultural Performance"
+        },
+        {
+          "id": 2,
+          "src": "/images/gallery/annual-day/cover.svg",
+          "alt": "Tableau presentation",
+          "caption": "Tableau Presentation"
+        },
+        {
+          "id": 3,
+          "src": "/images/gallery/annual-day/cover.svg",
+          "alt": "Award ceremony",
+          "caption": "Award Ceremony"
+        },
+        {
+          "id": 4,
+          "src": "/images/gallery/annual-day/cover.svg",
+          "alt": "Guest address",
+          "caption": "Chief Guest Address"
+        }
+      ]
+    },
+    {
+      "id": "campus",
+      "title": "Campus & Facilities",
+      "description": "Our modern campus with state-of-the-art facilities",
+      "coverImage": "/images/gallery/campus/cover.svg",
+      "images": [
+        {
+          "id": 1,
+          "src": "/images/gallery/campus/cover.svg",
+          "alt": "School building front view",
+          "caption": "Main Building"
+        },
+        {
+          "id": 2,
+          "src": "/images/gallery/campus/cover.svg",
+          "alt": "Computer laboratory",
+          "caption": "Computer Lab"
+        },
+        {
+          "id": 3,
+          "src": "/images/gallery/campus/cover.svg",
+          "alt": "Science laboratory",
+          "caption": "Science Laboratory"
+        },
+        {
+          "id": 4,
+          "src": "/images/gallery/campus/cover.svg",
+          "alt": "Library",
+          "caption": "School Library"
+        }
+      ]
+    },
+    {
+      "id": "assembly",
+      "title": "Morning Assembly",
+      "description": "Daily morning assembly fostering discipline and unity",
+      "coverImage": "/images/gallery/assembly/cover.svg",
+      "images": [
+        {
+          "id": 1,
+          "src": "/images/gallery/assembly/cover.svg",
+          "alt": "Students in morning assembly",
+          "caption": "Morning Assembly"
+        },
+        {
+          "id": 2,
+          "src": "/images/gallery/assembly/cover.svg",
+          "alt": "National anthem",
+          "caption": "National Anthem"
+        },
+        {
+          "id": 3,
+          "src": "/images/gallery/assembly/cover.svg",
+          "alt": "Quran recitation",
+          "caption": "Quran Recitation"
+        }
+      ]
+    }
+  ]
+}

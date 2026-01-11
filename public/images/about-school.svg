@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#e8f4f8"/>
+  <rect x="50" y="100" width="200" height="150" fill="#0a2647" rx="5"/>
+  <rect x="280" y="80" width="270" height="180" fill="#0a2647" rx="5"/>
+  <rect x="100" y="280" width="400" height="80" fill="#00a9cc" rx="5"/>
+  <text x="300" y="360" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Students Group Photo</text>
+</svg>

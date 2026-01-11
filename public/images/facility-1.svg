@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200">
+  <rect width="300" height="200" fill="#e8f4f8"/>
+  <rect x="20" y="20" width="260" height="160" fill="#0a2647" rx="5"/>
+  <text x="150" y="110" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Facility Image</text>
+</svg>
