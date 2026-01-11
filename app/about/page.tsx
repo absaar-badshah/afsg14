@@ -59,12 +59,9 @@ const values = [
 ]
 
 const facilities = [
-  'Smart Classrooms with Multimedia',
   'Well-equipped Computer Laboratory',
   'Modern Science Laboratories',
   'Comprehensive Library',
-  'Spacious Sports Ground',
-  'Dedicated Art & Music Rooms',
   'Safe Transport Facility',
   'CCTV Surveillance System',
 ]
@@ -165,45 +162,6 @@ export default function AboutPage() {
               </StaggerItem>
             ))}
           </StaggerContainer>
-        </div>
-      </section>
-
-      {/* Mission & Vision */}
-      <section className="py-20 bg-gray-50">
-        <div className="container-custom">
-          <div className="grid md:grid-cols-2 gap-8">
-            <FadeIn delay={0}>
-              <div className="bg-white rounded-2xl shadow-xl p-8 h-full">
-                <div className="w-16 h-16 bg-secondary-500 rounded-xl flex items-center justify-center mb-6">
-                  <HiLightBulb className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-2xl font-bold text-secondary-500 mb-4">Our Mission</h3>
-                <p className="text-gray-600 leading-relaxed">
-                  To provide a nurturing and stimulating learning environment that empowers 
-                  students to achieve academic excellence, develop strong moral character, 
-                  and become responsible citizens who contribute positively to society. We 
-                  strive to inspire a lifelong love of learning and prepare our students 
-                  for the challenges of an ever-changing world.
-                </p>
-              </div>
-            </FadeIn>
-
-            <FadeIn delay={0.2}>
-              <div className="bg-white rounded-2xl shadow-xl p-8 h-full">
-                <div className="w-16 h-16 bg-primary-500 rounded-xl flex items-center justify-center mb-6">
-                  <HiGlobe className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-2xl font-bold text-secondary-500 mb-4">Our Vision</h3>
-                <p className="text-gray-600 leading-relaxed">
-                  To be recognized as a leading educational institution in Islamabad that 
-                  sets the benchmark for academic excellence, innovation, and character 
-                  development. We envision our students becoming confident, creative, and 
-                  compassionate leaders who make meaningful contributions to their 
-                  communities and the world.
-                </p>
-              </div>
-            </FadeIn>
-          </div>
         </div>
       </section>
 

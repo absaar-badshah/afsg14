@@ -144,10 +144,7 @@ export default function HomePage() {
                 </div>
                 <h2 className="text-2xl font-bold text-secondary-500 mb-4">Our Vision</h2>
                 <p className="text-gray-600 leading-relaxed">
-                  Every student at Air Foundation schools is the trust of his parents and
-                   Allah to the safe hands of the institute.Air Foundation schools are parenting orphans
-                    and serving education to all classes of the society beyond any sectarianism. providing strong and positive
-                     individuals to the society, we earn the pleasure of Allah through social reform.
+                  Our vision is to be a premier center of excellence that inspires academic brilliance and personal integrity. We aim to cultivate critical thinkers and innovative leaders who are equipped to thrive in a competitive global landscape. By providing a safe, tech-forward environment, we empower every student to reach their full potential and lead with confidence. We are committed to shaping compassionate, forward-thinking citizens who are prepared to make a lasting impact on the modern world.
                 </p>
               </div>
             </FadeIn>
@@ -168,58 +165,6 @@ export default function HomePage() {
                 </p>
               </div>
             </FadeIn>
-          </div>
-        </div>
-      </section>
-
-      {/* About Section */}
-      <section className="py-20">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Image */}
-            <SlideIn direction="left">
-              <div className="relative">
-                <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                  <Image
-                    src="/images/about-school.svg"
-                    alt="Air Foundation School Students"
-                    width={600}
-                    height={400}
-                    className="w-full h-auto object-cover"
-                    unoptimized
-                  />
-                </div>
-                {/* Decorative Element */}
-                <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-primary-500 rounded-2xl -z-10" />
-                <div className="absolute -top-6 -left-6 w-24 h-24 bg-secondary-500 rounded-2xl -z-10" />
-              </div>
-            </SlideIn>
-
-            {/* Content */}
-            <SlideIn direction="right" delay={0.2}>
-              <div>
-                <h2 className="section-title">About Our School</h2>
-                <p className="text-gray-600 leading-relaxed mb-6">
-                  “Air Foundation School” is a non-profit school that was established in the year 2007,July 30. 
-                  The creation of “Me” schools is in line with the motto of “Adam Foundation Pakistan” that is 
-                  to serve Humanity through social reform via education. We are committed to the excellence and 
-                  highest and achievements of students in terms of their intellect, knowledge, good practice and 
-                  skills for 21st century. We strive for providing Muslim community in Pakistan with the latest 
-                  knowledge by means of blending faith, Islam into it.
-                </p>
-                <p className="text-gray-600 leading-relaxed mb-6">
-                  We teach students to be enquiring thinkers who can acclimatize and 
-                  succeed in varying global society. The School starts at Grade K to Matriculation and expanding 
-                  it to college and then university is in our plans. InshaAllah! We aspire to be the best 
-                  Institutions creating well balanced and competitive human beings.
-                </p>
-                <div className="flex flex-wrap gap-4">
-                  <Link href="/about" className="btn-primary">
-                    Learn More About Us
-                  </Link>
-                </div>
-              </div>
-            </SlideIn>
           </div>
         </div>
       </section>
@@ -256,7 +201,47 @@ export default function HomePage() {
           </StaggerContainer>
         </div>
       </section>
+                  {/* About Section */}
+      <section className="py-20">
+        <div className="container-custom">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Image */}
+            <SlideIn direction="left">
+              <div className="relative">
+                <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                  <Image
+                    src="/images/about-school.svg"
+                    alt="Air Foundation School Students"
+                    width={600}
+                    height={400}
+                    className="w-full h-auto object-cover"
+                    unoptimized
+                  />
+                </div>
+                {/* Decorative Element */}
+                <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-primary-500 rounded-2xl -z-10" />
+                <div className="absolute -top-6 -left-6 w-24 h-24 bg-secondary-500 rounded-2xl -z-10" />
+              </div>
+            </SlideIn>
 
+            {/* Content */}
+            <SlideIn direction="right" delay={0.2}>
+              <div>
+                <h2 className="section-title">About Our School</h2>
+                <p className="text-gray-600 leading-relaxed mb-6">
+                  Established in 2014, Air Foundation School-Capital Campus has spent over a decade defining excellence in private education. We are dedicated to providing a high-standard learning environment that balances academic rigor with the development of essential life skills. Our campus serves as a hub for innovation, where students are encouraged to think critically, act with integrity, and strive for personal bests.
+At Capital Campus, we believe that education extends beyond the classroom. We provide a tech-forward and safe atmosphere that allows students to explore their unique talents through a diverse curriculum. With a focus on modern teaching methodologies and a commitment to student well-being, we ensure our graduates are prepared for the challenges of a global future. For over 10 years, we have remained steadfast in our mission to nurture the next generation of confident, visionary leaders.
+                </p>
+                <div className="flex flex-wrap gap-4">
+                  <Link href="/about" className="btn-primary">
+                    Learn More About Us
+                  </Link>
+                </div>
+              </div>
+            </SlideIn>
+          </div>
+        </div>
+      </section>
       
     </>
   )
