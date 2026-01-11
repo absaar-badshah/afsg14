@@ -110,7 +110,7 @@ export default function HomePage() {
               the best start in their educational journey.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link
+              <Link 
                 href="/contact"
                 className="inline-flex items-center px-8 py-4 bg-white text-primary-500 font-semibold rounded-lg 
                           hover:bg-gray-100 transition-all duration-300 transform hover:scale-105"
